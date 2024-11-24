@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Corps général */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f9;
+    padding: 20px;
+  }
+  
+  /* Navigation */
+  nav {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  nav ul li a:hover {
+    background: #555;
+  }
+  
+  /* Sections */
+  section {
+    margin: 20px 0;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  section h2 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Formulaire */
+  form label {
+    display: block;
+    margin-top: 10px;
+  }
+  form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+  }
+  form button {
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  form button:hover {
+    background: #555;
+  }
