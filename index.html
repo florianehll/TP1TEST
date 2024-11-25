@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mon CV en ligne</title>
+  <title>CV de Floriane Houelle</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,56 +11,93 @@
   <nav>
     <ul>
       <li><a href="#about">À propos</a></li>
+      <li><a href="#education">Éducation</a></li>
       <li><a href="#skills">Compétences</a></li>
       <li><a href="#projects">Projets</a></li>
+      <li><a href="#experience">Expériences</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
 
-  <!-- Sections principales -->
+  <!-- À propos -->
   <section id="about">
-    <h1>Votre Nom</h1>
-    <p>Une courte description de vous-même.</p>
+    <h1>Floriane Houelle</h1>
+    <p>Étudiante en ingénierie à l'ECE Paris, spécialisée dans les technologies émergentes et l'innovation produit. Actuellement en recherche d'un stage ingénieur M1 à partir d'avril 2025.</p>
+    <p><strong>Email :</strong> florianehouelle@gmail.com</p>
+    <p><strong>Téléphone :</strong> +33 6 51 50 25 53</p>
+    <p><strong>LinkedIn :</strong> <a href="https://www.linkedin.com/in/florianehouelle/">linkedin.com/in/florianehouelle</a></p>
+    <p><strong>Localisation :</strong> Paris</p>
   </section>
 
-  <section id="skills">
-    <h2>Compétences</h2>
+  <!-- Éducation -->
+  <section id="education">
+    <h2>Éducation</h2>
     <ul>
-      <li>HTML/CSS</li>
-      <li>JavaScript</li>
-      <li>...</li>
+      <li><strong>ECE Paris</strong> (2023-2026) - Majeure : Conception et Réalisations appliquées aux Technologies Émergentes</li>
+      <li><strong>Semestre à Londres</strong> (Janvier 2024 - Mai 2024)</li>
+      <li><strong>IUT d'Orsay - Université Paris-Saclay</strong> (2020-2023) - DUT Mesures Physiques (option MCPC)</li>
+      <li><strong>Lycée Jacques Amyot</strong>, Melun - Baccalauréat Scientifique, mention Bien (2017-2020)</li>
     </ul>
   </section>
 
-  <section id="projects">
-    <h2>Projets</h2>
-    <p>Listez vos projets ici.</p>
+  <!-- Compétences -->
+  <section id="skills">
+    <h2>Compétences</h2>
+    <ul>
+      <li><strong>Langues :</strong> Français (natif), Anglais (courant)</li>
+      <li><strong>Développement :</strong> Front-End, Back-End, Full-Stack, No-code (WebFlow)</li>
+      <li><strong>IA et Automatisation :</strong> Intelligence Artificielle, Machine Learning, Automatisation (Make)</li>
+      <li><strong>Gestion de Projet :</strong> Méthodes AGILE (Scrum)</li>
+      <li><strong>Web Design :</strong> UX/UI Design, Analyse SWOT, PESTEL, Customer Journey</li>
+    </ul>
   </section>
 
+  <!-- Projets -->
+  <section id="projects">
+    <h2>Projets</h2>
+    <ul>
+      <li><strong>IA Générative :</strong> Développement d'un outil de génération de sites web avec une interface chatbot IA.</li>
+      <li><strong>Web et No-Code :</strong> Création d'un site web de recherche d'emplois pour jeunes professionnels sur WebFlow, avec personnalisation IA.</li>
+      <li><strong>Réalité Augmentée :</strong> Scan de logo pour afficher un terrain 3D et la composition d'équipes sportives.</li>
+    </ul>
+  </section>
+
+  <!-- Expériences professionnelles -->
+  <section id="experience">
+    <h2>Expériences professionnelles</h2>
+    <ul>
+      <li><strong>Hôtel Lutetia, Paris :</strong> Commis de salle durant les JO 2024 (Juil. - Août 2024)</li>
+      <li><strong>The Hoxton, Paris :</strong> Commis de bar, CDD temps plein (Fév. - Mai 2023)</li>
+      <li><strong>Curium Pharma, Plateau de Saclay :</strong> Stage technicienne en métrologie, mission de requalification (Nov. 2022 - Jan. 2023)</li>
+      <li><strong>LHA London :</strong> Bénévole dans une auberge de jeunesse (Avril - Mai 2024)</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
   <section id="contact">
-    <h2>Contact</h2>
+    <h2>Contactez-moi</h2>
     <form>
       <label for="name">Nom :</label>
       <input type="text" id="name" name="name" required>
-      
+
       <label for="email">Email :</label>
       <input type="email" id="email" name="email" required>
-      
+
       <label for="message">Message :</label>
-      <textarea id="message" name="message" rows="5"></textarea>
-      
+      <textarea id="message" name="message" rows="5" required></textarea>
+
       <button type="submit">Envoyer</button>
     </form>
   </section>
-</body>
-</html>
-<section id="interests">
+
+  <!-- Centres d'intérêt -->
+  <section id="interests">
     <h2>Centres d'intérêt</h2>
-    <p>J’aime explorer le monde du développement et écouter de la musique inspirante.</p>
- 
-    <!-- Exemple de musique -->
+    <p>Passionnée par la musique inspirante.</p>
     <audio controls>
       <source src="ascenseur.mp3" type="audio/mpeg">
       Votre navigateur ne supporte pas la lecture audio.
     </audio>
   </section>
+</body>
+</html>
